@@ -22,8 +22,6 @@ def number_check(txt):
         return True
     else:
         return False
-#doc_id+=1  (have to add this part to the loop)    
-
 
 # In[16]:
 
@@ -51,8 +49,6 @@ indexer_dict={key: value for (key,value) in indexer} #changing a list into a dic
 # print(index_dict) #in this part we print out the token sequence
 for i in sorted(indexer_dict):
     print([i,indexer_dict[i]])#in this part we print out the sorted token sequence
-
-#i need to implement linked lists and change this dictionary into a linked list
 
 
 # In[18]:
